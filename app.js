@@ -74,8 +74,8 @@ app.displayImages = (data) => {
       const photoHtml = `
             <div class="photo-box">
                <div class="img-box">
-                  <a href="${photo.urls.raw}" target="_blank"> 
-                  <img src="${photo.urls.raw}" alt="${photo.alt_description}"></a>
+                  <a href="${photo.urls.thumb}" target="_blank"> 
+                  <img src="${photo.urls.thumb}" alt="${photo.alt_description}"></a>
                </div>
             </div>
          `
