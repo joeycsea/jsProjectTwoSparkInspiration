@@ -108,6 +108,8 @@ button {
    border: 2px solid white;
    border-radius: 7%;
    padding: 7px;
+   transition: 0.3s;
+   cursor: pointer;
 }
 
 button:hover,

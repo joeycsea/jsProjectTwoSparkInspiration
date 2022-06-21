@@ -40,8 +40,8 @@ app.getFirstImages = () => {
       dataType: 'json',
       data: {
          client_id: app.key,
-         query:`watercolour painting`,
-         per_page: 12
+         query:`watercolour`,
+         per_page: 16
       }
    })
       .then((response) => {
