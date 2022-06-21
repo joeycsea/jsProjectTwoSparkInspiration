@@ -59,7 +59,7 @@ app.getImages = (userSearch) => {
       data: {
          client_id: app.key,
          query: userSearch,
-         per_page: 12
+         per_page: 16
       }
    })
       .then((response) => {
