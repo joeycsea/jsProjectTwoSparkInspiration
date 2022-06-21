@@ -41,6 +41,7 @@ app.getFirstImages = () => {
       data: {
          client_id: app.key,
          query:`watercolour painting`,
+         per_page: 12
       }
    })
       .then((response) => {
