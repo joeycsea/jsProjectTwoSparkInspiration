@@ -66,6 +66,11 @@ app.getImages = (userSearch) => {
       app.$results.empty();
       app.displayImages(response.results);
       });
+
+      window.scrollBy( {
+         top: 500,
+         behavior: 'smooth'
+      })
 }   
 
 // Function to take the results of API call and display them on the page:
